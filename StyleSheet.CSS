@@ -1,19 +1,23 @@
-.body {
-    font-family:Arial, Helvetica, sans-serif Helvetica, sans-serif;
-    background-color: #FFFFFF;
-    background-image: url(Structure/Assests/bg40.png);
-    background-repeat: repeat-y;
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #f2f9fb;
+    
 }
 .barContainer {
-    background-color: #FFFFFF!important;
+    background-blend-mode: lighten;
 }
 .topBar {
-    background-color: none; 
+    background: linear-gradient(90deg, #ffebd5 0%, #f7941d 100%);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
 }
 .header {
     display: flex;
     flex-direction: row;
     font-style:italic;
+    width: 100%;
+    margin-left: 96px;
+    margin-right: 96px;
 }
 .slogan {
     display: flex;
@@ -21,6 +25,9 @@
     text-align: center;
     font-size: 40px;
     color: #1f3173;
+    width: 100%;
+    justify-content: center;
+    margin-top: auto;
 }
 .navBar {
     display: flex;
@@ -42,5 +49,67 @@
     height: 51px;
     min-width: 308px;
     font-size: 32px;
-    transition: .5s;
+    transition: .2s;
 }
+.menuLabel:hover {
+    display: flex;
+    color: #f7941d;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 51px;
+    min-width: 308px;
+    font-size: 32px;
+    transition: .2s;
+    text-decoration: underline;
+}
+.wave{
+    height: 50px;
+    position: relative;
+    background: linear-gradient(90deg, #27b6b9 0%, #0f4061 100%);
+  }
+  
+  /* Wave text css */
+  .wave {
+    color:#fff;
+    text-align:center;
+    font-weight:bold;
+    font-size:24px;
+    padding-top:25px;
+    padding-bottom:25px;
+    
+  }
+  /* */
+  
+  
+  .wave::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: repeat;
+    height: 10px;
+    background-size: 20px 20px;
+    background-image:
+     radial-gradient(circle at 10px -5px, transparent 12px, #fff 13px);
+  }
+  .wave::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: repeat;
+    height: 15px;
+    background-size: 40px 20px;
+    background-image:
+      radial-gradient(circle at 10px 15px, #fff 12px, transparent 13px);
+  }
+  .ballStyle {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 25px;
+    position: absolute;
+  }
