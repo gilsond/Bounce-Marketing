@@ -1,61 +1,119 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <!-- <meta charset="utf-8"> -->
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="StyleSheet.CSS"> 
 </head>
 <body>
-    <nav class="navbar bg-body-tertiary barContainer">
-        <div class="container-fluid topBar">
-          <a class="navbar-brand header" href="#">
-            <img src="/Structure/Assests/image 2.png" alt="Logo" width="116" height="100" class="d-inline-block align-text-top bounceLogo">
-            <p Class="slogan">One Application and Done!</p>
-          </a>
-        </div>
-      </nav>
-      <nav class="navBar">
-        <div class="menuLabel">What is Bounce?</div>
-        <div class="menuLabel">Who is Bounce for?</div>
-        <div class="menuLabel">How it works</div>
-        <div class="menuLabel">Bounce with us!</div>
-     </nav>
+  <div class="intro">
+    <h1>Bounce: Your Rental Search, Elevated</h1>
+    <nav class="navBar">
+      <div class="menuLabel">Apply Anywhere, Anytime</div>
+      <div class="menuLabel">Your Rental Passport</div>
+      <div class="menuLabel">Secure & Reliable</div>
+      <!-- <div class="menuLabel"></div> -->
+   </nav> 
+  </div>
+  <div class="divide">
+    <div class="line"></div> 
+  </div> 
+
+      
      <div class="hero">
       <div class="heroLeft">
-        <img class="bImage1" src="Structure/Assests/Landing.png" alt="Photo of landing page on Iphone 13 pro">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img class="bImage1" src="Structure/Assests/landing2.png" style="width:90%">
+            <div class="text">Welcome to Bounce</div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img class="bImage1" src="Structure/Assests/explore.png" style="width:90%">
+            <div class="text">Explore Properties</div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img class="bImage1" src="Structure/Assests/creditCheck.png" style="width:90%">
+            <div class="text">Securely Upload Documents</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img class="bImage1" src="Structure/Assests/apply.png" style="width:90%">
+            <div class="text">One Click Apply!</div>
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        <!-- <img class="bImage1" src="Structure/Assests/Landing.png" alt="Photo of landing page on Iphone 13 pro"> -->
       </div>
       <div class="heroRight">
         <div class="bounceCase">
-          <h4 class="bcaseTitle">One Touch Application Submission</h4>
-          <p1 class="bcInfo">Once you create your universal rental application* and add all your required documents, every rental you find can be applied for with one tap!</p1>
-          <button class="bcButt">Learn More</button>
+          <h4 class="bcaseTitle">Redefining Rental Applications</h4>
+          <p1 class="bcInfo">Say goodbye to paperwork and hello to a smarter, safer way to apply. Bounce lets you experience the convenience of applying to multiple rentals seamlessly. Embrace the future with Bounce - secure, seamless, and stress free.</p1>
+          <button class="bcButt">Bounce Now</button>
         </div>
 
       </div>
      </div>
-     <!-- <div class="wave">Bounce</div>  -->
-     <!-- <div class="ballStyle" id="ball"></div> -->
+     <div class="divide">
+      <div class="line"></div>
+      <h1>Apply Anywhere, Anytime, with Bounce</h1>
+      <!-- <div class="rectangle">Apply Anywhere, Anytime</div> -->
+      <div class="deck">
+        <div class="cardA">
+          <h5>Multiple Devices, One Account</h5>
+          <p2 class="cardInfoA">Your Bounce account is not tied to a specific device. You can seemlessly switch between devices while keeping all your information and applications in sync.</p2>
+        </div>
+        <div class="cardB">
+          <h6>24/7 Accessibility</h6>
+          <p3 class="cardInfoB">With Bounce, you're no longer bound by traditioonal office hours. Our platform is accessible 24/7, allowing you to browse and apply for rental properties whenever it suits you. Whether you're an early bird or a night owl, Bounce is there for you.</p3>
+        </div>
+        <div class="cardA">
+          <h5>Save Your Progress</h5>
+          <p2 class="cardInfoA">Life can be hectic, and interruptions happen. With Bounce, you can start an application, save your progress, and come back to it later. No need to rush through the process or start from scratch if you get interrupted.</p3>
+        </div>
+        <div class="cardB">
+          <h6>Global Reach</h6>
+          <p3 class="cardInfoB">Are you relocating to a new city or planning to explore different neighborhoods? Bounce lets you apply to rental properties across various locations, making it ideal for both local and long-distance moves. Bounce will also let you know if additional information is needed on your application for rentals outside the United States.</p3>
+        </div>
+      </div>
+     </div>
+     
 </body>
 <script>
-  const ball = document.getElementById("ball");
-  let x = 0;
-  let y = 0;
-  let xSpeed = 5;
-  let ySpeed = 5;
-  function animate() {
-  x += xSpeed;
-  y += ySpeed;
-  if (x + 50 > window.innerWidth || x < 0) {
-     xSpeed = -xSpeed;
-  }
-  if (y + 50 > window.innerHeight || y < 0) {
-     ySpeed = -ySpeed;
-  }
-  ball.style.left = x + "px";
-  ball.style.top = y + "px";
-  requestAnimationFrame(animate);
+let slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
-animate();
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
 </script>
 </html>
