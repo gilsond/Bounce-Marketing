@@ -26,7 +26,7 @@ h1 {
     justify-content: left;
     margin-left: 96px;
     width: 35%;
-    color: #f7941d;
+    color: #ffebd5;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 64px;
     font-weight: 400;
@@ -36,7 +36,7 @@ h1 {
     flex-direction: column;
     width: fill;
     height: 8px;
-    background: #f7941d;
+    background: #ffebd5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-top: 48px;
     margin-bottom: 48px;
@@ -86,7 +86,7 @@ h1 {
     gap: 8px;
     margin-top: 68px;
     flex-wrap: wrap;
-    margin-right: 96px;
+    margin-right: 24px;
 }
 .menuLabel {
     display: flex;
@@ -113,6 +113,36 @@ h1 {
     transition: .2s;
     background-color: #27b6b9;
     border-radius: 32px;
+}
+.download {
+    display: flex;
+    color: #f2f2f2;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 51px;
+    /* min-width: 64px; */
+    font-size: 20px;
+    transition: .2s;
+    background-color: #f7941d;
+    border-radius: 32px;
+    margin-right: 96px;
+    margin-top: 68px;
+}
+.download:hover {
+    display: flex;
+    color: #072030;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 51px;
+    /* min-width: 64px; */
+    font-size: 20px;
+    transition: .2s;
+    background-color: #27b6b9;
+    border-radius: 32px;
+    margin-right: 96px;
+    margin-top: 68px;
 }
 .hero {
     display: flex;
@@ -296,7 +326,7 @@ h1 {
     align-items: center;
     color: #072030;
     width: 25%;
-    height: 384px;
+    height: auto;
     background: linear-gradient(180deg, #f7941d 0%, #ffebd5 100%);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-top: 48px;
@@ -323,7 +353,17 @@ h5 {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal; 
+    line-height: normal;
+}
+.anyImage {
+    border-radius: 32px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.saveImage {
+    border-radius: 32px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .cardB {
     display: flex;
