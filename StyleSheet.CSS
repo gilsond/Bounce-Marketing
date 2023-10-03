@@ -1010,8 +1010,8 @@ li {
             align-items: center;
             width: auto;
             height: 51px;
-            min-width: 500px;
-            font-size: 24px;
+            min-width: 250px;
+            font-size: 18px;
             transition: .2s;
             background: linear-gradient(180deg, #c177c7 0%, #ffffff 100%);
             border-radius: 32px;
