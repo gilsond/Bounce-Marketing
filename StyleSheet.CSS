@@ -1054,8 +1054,8 @@ li {
             margin-top: 48px;
             margin-bottom: 48px;
             border-radius: 32px;
-            margin-left: 54px;
-            margin-right: 54px;
+            margin-left: 16px;
+            margin-right: 16px;
         }
         .hero {
             display: flex;
@@ -1065,6 +1065,8 @@ li {
             flex-wrap: wrap;
             margin-top: 68px;
             margin-bottom: 68px;
+            margin-left: auto;
+            margin-right: auto;
             gap: 24px;
         }
         .heroLeft {
@@ -1098,7 +1100,7 @@ li {
             padding: 8px 12px;
         }
         .bImage1 {
-            max-width: 90%;
+            max-width: 60%;
             height: auto;
             position: relative;
         }
@@ -1153,8 +1155,8 @@ li {
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            width: 624px;
-            height: 950px;
+            width: 380px;
+            height: 500px;
             border-radius: 32px 32px 32px 32px;
             background: linear-gradient(118deg, #f7941d 0%, #ffebd5 100%);
             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);    
