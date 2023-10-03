@@ -513,7 +513,7 @@ li {
     }
      h2 {
         display: flex;
-        justify-content: left;
+        justify-content: center;
         gap: 16px;
         width: 100%;
         color: #796894;
@@ -1072,8 +1072,8 @@ li {
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            width:624px;
-            height: 950px;
+            width:380px;
+            height: 500px;
             border-radius: 32px 32px 32px 32px;
             background: linear-gradient(271deg, #c5b4e0 0%, #362b47 100%);
             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -1238,8 +1238,8 @@ li {
             display: flex;
             flex-direction: column;
             gap: 32px;
-            margin-left: 54px;
-            margin-right: 54px;
+            margin-left: 16px;
+            margin-right: 16px;
         }
         .cardA {
             display: flex;
@@ -1362,8 +1362,8 @@ li {
             display: flex;
             flex-direction: column;
             gap: 32px;
-            margin-left: 54px;
-            margin-right: 54px; 
+            margin-left: 16px;
+            margin-right: 16px; 
         }
         ul {
             list-style: none;
@@ -1402,6 +1402,5 @@ li {
             color: #c5b4e0;
             gap: 24px;
             padding: 24px;
-        
         }
     }
