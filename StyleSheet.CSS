@@ -958,6 +958,7 @@ li {
         .intro {
             display: flex;
             flex-direction: column;
+            justify-content: center;
             gap: 32px;
             align-items: center;
             margin-left: 16px;
@@ -1075,7 +1076,7 @@ li {
             align-items: center;
             justify-content: center;
             width:380px;
-            height: 500px;
+            height: 600px;
             border-radius: 32px 32px 32px 32px;
             background: linear-gradient(271deg, #c5b4e0 0%, #362b47 100%);
             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -1103,6 +1104,8 @@ li {
             max-width: 60%;
             height: auto;
             position: relative;
+            margin: auto;
+            display: block;
         }
         .text {
             color: #f2f2f2;
@@ -1156,7 +1159,7 @@ li {
             align-items: center;
             justify-content: center;
             width: 380px;
-            height: 500px;
+            height: 600px;
             border-radius: 32px 32px 32px 32px;
             background: linear-gradient(118deg, #f7941d 0%, #ffebd5 100%);
             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);    
@@ -1166,12 +1169,12 @@ li {
             width: 64%;
             flex-direction: column;
             align-items: flex-start;
-            gap: 24px;
+            gap: 16px;
         }
         .bcaseTitle {
             display: flex;
             color: #f2f9fb;
-            font-size: 40px;
+            font-size: 26px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -1183,7 +1186,7 @@ li {
             width: 100%;
             color: #362b47;
             font-family: Tahoma;
-            font-size: 26px;
+            font-size: 18px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -1198,7 +1201,7 @@ li {
             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
             color: #f2f2f2;
             font-family: Tahoma;
-            font-size: 26px;
+            font-size: 20px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -1217,7 +1220,7 @@ li {
             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
             color: #362b47;
             font-family: Tahoma;
-            font-size: 24px;
+            font-size: 20px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -1229,8 +1232,8 @@ li {
         h1 {
             display: flex;
             justify-content: left;
-            margin-left: 54px;
-            margin-right: 54px;
+            margin-left: 16px;
+            margin-right: 16px;
             color: #ffffff;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 54px;
@@ -1298,7 +1301,7 @@ li {
         h5 {
             display: flex;
             color: #f2f9fb;
-            font-size: 40px;
+            font-size: 32px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -1307,7 +1310,7 @@ li {
         h6 {
             display: flex;
             color: #f2f9fb;
-            font-size: 40px;
+            font-size: 32px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -1320,7 +1323,7 @@ li {
             width: 100%;
             color: #362b47;
             font-family: Tahoma;
-            font-size: 26px;
+            font-size: 24px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -1332,7 +1335,7 @@ li {
             width: 100%;
             color: #ffffff;
             font-family: Tahoma;
-            font-size: 26px;
+            font-size: 24px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
