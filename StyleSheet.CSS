@@ -18,7 +18,7 @@ body {
 
 }
 /* largest size - next size line 492*/
-@media only screen and (min-width:992px) {
+@media only screen and (min-width: 992px) {
     
 .intro {
     display: flex;
@@ -450,6 +450,13 @@ h6 {
     background-color: #362b47;
     gap: 32px;
 }
+.foot-deck {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-left: 96px;
+    margin-right: 96px; 
+}
 ul {
     list-style: none;
     list-style-image: none;
@@ -490,7 +497,7 @@ li {
 }
 }
 /* mid size - next size line 944*/
-@media only screen and (min-width:768px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
 
     .intro {
         display: flex;
@@ -939,22 +946,22 @@ li {
         color: #c5b4e0;
         gap: 24px;
         padding: 24px;
-    
+    }
     }
     /* smallest */
-    }
-    @media only screen and (max-width:600px) {
+    @media only screen and (min-width:200px) and (max-width:600px) {
         body {
             font-family:Arial, Helvetica, sans-serif;
             background: linear-gradient(70deg, #796894 25%, #ffffff 100%);
+
         }
         .intro {
             display: flex;
             flex-direction: column;
             gap: 32px;
             align-items: center;
-            margin-left: 54px;
-            margin-right: 54px;
+            margin-left: 16px;
+            margin-right: 16px;
         }
         .bounce-arrow {
             position: relative;
@@ -962,12 +969,12 @@ li {
         }
          h2 {
             display: flex;
-            justify-content: left;
+            justify-content: center;
             gap: 16px;
             width: 100%;
             color: #796894;
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 48px;
+            font-size: 28px;
             font-weight: 400;
         }
         .navBar {
@@ -987,8 +994,8 @@ li {
             align-items: center;
             width: auto;
             height: 51px;
-            min-width: 500px;
-            font-size: 24px;
+            min-width: 250px;
+            font-size: 18px;
             transition: .2s;
             background: linear-gradient(180deg, #c5b4e0 0%, #362b47 100%);
             border-radius: 32px;
@@ -1353,7 +1360,7 @@ li {
         }
         .foot-deck {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             gap: 32px;
             margin-left: 54px;
             margin-right: 54px; 
