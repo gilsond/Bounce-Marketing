@@ -1436,10 +1436,9 @@ li {
         }
         .credits {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: center;
             color: #1f9de2;
-            gap: 24px;
             padding: 24px;
         }
     }
