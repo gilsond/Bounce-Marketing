@@ -1,36 +1,16 @@
 ## Bounce Marketing
 ![page-snippet](/Structure/Assests/gilsond.github.io_Bounce-Marketing_.png)
 
-Simple overview of use/purpose.
+A page created to showcase a new application for finding and applying to rental properties.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+I've created this webpage as a marketing page to showcase a design project from my UC Irvine UX/UI boot camp. It serves as a visual representation of my design work and encapsulates the project's core objectives. Throughout the development process, I've meticulously refined the color scheme and overall presentation of the page to ensure an optimal user experience. The webpage leverages the power of JavaScript to deliver an engaging slideshow that effectively presents my design project. Moreover, it boasts a responsive design achieved through CSS media queries, ensuring seamless usability across various device sizes and breakpoints.
 
-## Getting Started
+## Technologies
 
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+For this project, I harnessed a combination of web development languages and tools to bring my vision to life. I used HTML, CSS, and JavaScript to build and style the webpage, creating an interactive and visually appealing experience. Visual Studio Code served as my primary integrated development environment (IDE), enabling efficient coding and debugging. The Chrome browser's inspect tool was instrumental in fine-tuning and debugging the project. To collaborate and share my work, I utilized GitHub for version control and project sharing. Before diving into coding, I employed Figma, a powerful design tool, to meticulously plan and design the project's layout, ensuring a solid foundation for my web development journey.
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+I would like to acknowledge the hard work and dedication of the talented team for their invaluable contributions to the design of the 'Bounce' application. This project would not have been possible without the exceptional efforts of Monica Gerges, Sean Rose, Christina Scardino, William Tan, and Brett White.
